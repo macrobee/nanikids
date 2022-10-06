@@ -1,25 +1,48 @@
-import logo from './logo.svg';
 import './App.css';
+import React, { Component } from 'react';
+import Nav from './Pages/Nav';
+import Header from './Pages/Header';
+import About from './Pages/About';
+import Home from './Pages/Home';
+import Cottage from './Pages/Cottage';
+import Meet from './Pages/Meet';
+import Stretch from './Pages/Stretch';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  constructor() {
+    super()
+    this.state = {
+      selectedPage: 'home',
+    }
+    this.choosePage = this.choosePage.bind(this);
+    this.displayPage = this.displayPage.bind(this);
+  }
+  choosePage(e) {
+    console.log(`clicked`);
+    console.log(e.currentTarget.id);
+    const clickedId = e.currentTarget.id;
+    this.setState({ selectedPage: clickedId });
+    this.displayPage(clickedId)
+  }
+  displayPage(page) {
+    const pages = {
+      home: <Home />,
+      about: <About />,
+      cottage: <Cottage />,
+      meet: <Meet />,
+      stretch: <Stretch />,
+    }
+    return pages[page];
+  }
+  render() {
+    return (
+      <div className="App">
+        <Header />
+        <Nav onClick={this.choosePage} />
+        {this.displayPage(this.state.selectedPage)}
+      </div>
+    );
+  }
 }
 
 export default App;
