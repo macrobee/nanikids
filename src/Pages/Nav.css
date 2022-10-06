@@ -1,0 +1,22 @@
+#nav-bar{
+    font-family: 'Cedarville Cursive', cursive, sans-serif;
+    font-size: 25px;
+    background-color: rgba(0,0,0,0);
+    position: fixed;
+    width: 200px;
+    right: -10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-items: center;
+    align-items: flex-start; 
+  }
+  .nav-item{
+    padding: 10px 20px 10px 20px;
+    transition: 0.3s;
+    width: 200px;
+    border-radius: 5px;
+  }
+  .nav-item:hover{
+    background-color: var(--hover-color);
+  }

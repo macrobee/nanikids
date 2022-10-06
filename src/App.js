@@ -24,7 +24,7 @@ class App extends Component {
     this.setState({ selectedPage: clickedId });
     this.displayPage(clickedId)
   }
-  displayPage(page) {
+  displayPage(choice) {
     const pages = {
       home: <Home />,
       about: <About />,
@@ -32,7 +32,7 @@ class App extends Component {
       meet: <Meet />,
       stretch: <Stretch />,
     }
-    return pages[page];
+    return pages[choice];
   }
   render() {
     return (

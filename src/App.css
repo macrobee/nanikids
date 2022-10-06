@@ -1,42 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Cedarville+Cursive&family=Lobster&display=swap');
 :root{
-  --hover-color:rgb(128, 223, 146); 
-}
-#nav-bar{
-  font-family: 'Cedarville Cursive', cursive, sans-serif;
-  font-size: 20px;
-  background-color: rgba(0,0,0,0);
-  position: fixed;
-  width: 200px;
-  right: -10px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  justify-items: center;
-  align-items: flex-end; 
-}
-.nav-item{
-  padding: 10px 20px 10px 20px;
-  transition: 0.3s;
-  border-radius: 5px;
-}
-.nav-item:hover{
-  background-color: var(--hover-color);
-}
-h1{
-  font-family: 'Cedarville Cursive', cursive, sans-serif;
-  font-size: 80px;
-  margin: 0;
+  --hover-color:rgb(128, 223, 146);
+  --background-light: rgb(187, 168, 150);
+  --background-dark: rgb(103, 82, 66);
+  --highlight: rgb(58, 183, 63); 
 }
 
-.logo{
-  border-radius: 50%;
-  border: 2px solid black;
+body{
+  background-color: var(--background-light);
 }
-div{
-  /* border: 2px solid black; */
+
+p{
+  font-family: 'Abyssinica SIL', serif;
+  font-size: 20px;
+}
+
+.pages{
+  width: min(80%, calc(100%-200px));
+  /* height: 77vh; */
+  padding-left: 50px;
+  display: flex;
+  align-items:flex-start;
+  gap: 40px;
 }
 h2{
-  margin: 0;
+  margin-bottom: 20px;
+  font-family: 'Lobster', serif;
+  font-size: 30px;
+  letter-spacing: 4px;
+}
+.section{
+width: 50%;
+display: flex;
+flex-direction:column;
+justify-content: flex-start;
+align-items: flex-start;
+}
+.text{
+  width: 40%;
+  height: 100%;
+  padding-top: 100px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.display-img{
+  width: 100%;
+}
+.banner-img{
+  width: 70%;
+  margin-top: 30px;
 }

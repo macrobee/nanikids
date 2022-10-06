@@ -1,0 +1,19 @@
+#meet-page{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.info{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    align-items: center;
+}
+.info:nth-of-type(2n){
+    flex-direction:row-reverse;
+}
+img{
+    width:50%;
+}

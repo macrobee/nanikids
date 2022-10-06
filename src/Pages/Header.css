@@ -1,11 +1,44 @@
 #header {
     display: flex;
+    height: 23vh;
     justify-content: flex-start;
     align-items: center;
     gap: 50px;
     padding-left: 5%;
+    background-color: white;
+    border-bottom: 8px dashed var(--background-dark);
+}
+h1:hover{
+    color:rgb(198, 169, 53);
+}
+h1 {
+    font-family: 'Cedarville Cursive', cursive, sans-serif;
+    font-size: 80px;
+    margin: 0;
+    transition:cubic-bezier(1, 0, 0, 1) 1s;
 }
 
-/* h1{
-    display: inline;
-  } */
+@keyframes logospin {
+    0% {
+        transform: rotate(0deg);
+    }
+    20%{
+        transform: rotate(100deg) scale(1.05);
+    }
+
+    100% {
+        transform: rotate(369deg) scale(1);
+        
+    }
+}
+
+.logo {
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 100px;
+}
+
+.logo:hover {
+    animation: logospin 1.5s infinite linear;
+    animation-delay: 0.3s;
+}
