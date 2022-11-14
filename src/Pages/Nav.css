@@ -20,3 +20,8 @@
   .nav-item:hover{
     background-color: var(--hover-color);
   }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }

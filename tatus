@@ -1,0 +1,42 @@
+[33mcommit 62376882f8827c3c2f7f016893507400b61995b7[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Vivian T <vivian.tong95@gmail.com>
+Date:   Thu Oct 6 13:42:17 2022 -0400
+
+    Add final styling updates to pages
+
+[33mcommit 68f06adaf317f7ca20fc16dedc9caf3cae1f2114[m
+Author: Vivian T <vivian.tong95@gmail.com>
+Date:   Wed Oct 5 23:37:18 2022 -0400
+
+    add link to index.js in index.html
+
+[33mcommit 5629fcafc889ddbc859bec46462ed54aaddfda36[m
+Merge: 0aa12a5 9c32e96
+Author: Vivian T <vivian.tong95@gmail.com>
+Date:   Wed Oct 5 23:22:41 2022 -0400
+
+    merge changes in package.json
+
+[33mcommit 0aa12a5f7bcbaa7fe9251f61d0fc6c885d50c277[m
+Author: Vivian T <vivian.tong95@gmail.com>
+Date:   Wed Oct 5 23:18:45 2022 -0400
+
+    Add app functionality
+
+[33mcommit 96ecc18246f80bbdff99d761f256299c35c7b80e[m
+Author: Vivian T <vivian.tong95@gmail.com>
+Date:   Wed Oct 5 21:56:57 2022 -0400
+
+    add to package.json
+
+[33mcommit 9c32e96a26cb5780157678551b75f5debca2dc1f[m
+Author: Vivian T <vivian.tong95@gmail.com>
+Date:   Wed Oct 5 21:22:41 2022 -0400
+
+    update package.json
+
+[33mcommit d3479b6a623c950384a19713087e50e5dd0f4bd4[m
+Author: Vivian T <vivian.tong95@gmail.com>
+Date:   Wed Oct 5 20:59:57 2022 -0400
+
+    Initialize project using Create React App
