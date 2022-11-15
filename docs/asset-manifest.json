@@ -1,16 +1,25 @@
 {
   "files": {
-    "main.css": "/nanikids/static/css/main.073c9b0a.css",
-    "main.js": "/nanikids/static/js/main.29a07877.js",
+    "main.css": "/nanikids/static/css/main.2732f431.css",
+    "main.js": "/nanikids/static/js/main.2367ac9a.js",
     "static/js/787.020df0ad.chunk.js": "/nanikids/static/js/787.020df0ad.chunk.js",
-    "static/media/logo.svg": "/nanikids/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/river.jpg": "/nanikids/static/media/river.a5b2317995e777c383c2.jpg",
+    "static/media/david.jpg": "/nanikids/static/media/david.be4d2d46ae50cc4e4401.jpg",
+    "static/media/fire.jpg": "/nanikids/static/media/fire.270a124513ecec86d39a.jpg",
+    "static/media/cayenne.jpg": "/nanikids/static/media/cayenne.be303660d07f9187d42b.jpg",
+    "static/media/stefannie.jpg": "/nanikids/static/media/stefannie.e015f6940a5e623e2617.jpg",
+    "static/media/stretch.jpg": "/nanikids/static/media/stretch.db634af7dbe20645ed40.jpg",
+    "static/media/lem.jpg": "/nanikids/static/media/lem.4e17286c90aacb1da7b4.jpg",
+    "static/media/rini.jpg": "/nanikids/static/media/rini.28b6b19f2057e8a0b2bd.jpg",
+    "static/media/hangout.jpg": "/nanikids/static/media/hangout.5a70be2ad350ade75b15.jpg",
+    "static/media/nani.jpg": "/nanikids/static/media/nani.a7822c9d30babe32b7f6.jpg",
     "index.html": "/nanikids/index.html",
-    "main.073c9b0a.css.map": "/nanikids/static/css/main.073c9b0a.css.map",
-    "main.29a07877.js.map": "/nanikids/static/js/main.29a07877.js.map",
+    "main.2732f431.css.map": "/nanikids/static/css/main.2732f431.css.map",
+    "main.2367ac9a.js.map": "/nanikids/static/js/main.2367ac9a.js.map",
     "787.020df0ad.chunk.js.map": "/nanikids/static/js/787.020df0ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.29a07877.js"
+    "static/css/main.2732f431.css",
+    "static/js/main.2367ac9a.js"
   ]
 }
